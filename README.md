@@ -1,2 +1,1 @@
-# Kclass
-Sait
+#Kclasssait.rus
