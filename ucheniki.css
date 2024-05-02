@@ -72,7 +72,6 @@ header section {
 	color: #888888;
 	display: flex;
 	justify-content: space-between;
-	align-items: space-between;
 }
 
 .header-left {
@@ -87,6 +86,10 @@ header section {
 	font-family: Courier New;
 	font-size: 44px;
 	font-weight: bold;
+}
+
+.header-left h3 {
+	padding: 0px 0px 53px 0px;
 }
 
 .header-left p {
@@ -126,19 +129,8 @@ header section {
 	margin-top: 35px;
 }
 
-.consta {
-	padding: 30px 160px 20px 160px;
-	font-size: 50px;
-	font-family: Courier;
-	background-color: #FFFFFF;
-	color: #000000;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
 .content {
-	padding: 60px 160px 0px 160px;
+	padding: 40px 160px 0px 160px;
 	background-color: #FAEBD7;
 	color: #000000;
 	display: flex;
@@ -173,49 +165,10 @@ header section {
 	font-weight: bold;
 }
 
-.content ul li:before {
-	content: "";
-	background-color: #FFCB06;
-	width: 8px;
-	height: 8px;
-	position: absolute;
-	top: 5px;
-	left: -30px;
-	border-radius: 50%;
-}
 
-.conten {
-	padding: 20px 160px 200px 155px;
-	background-color: #FAEBD7;
-	color: #000000;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin-top: -90px;
-}
 
-.conten div {
-	width: 400px;
-	margin-bottom: 50px;
-}
-
-.contens {
-	padding: 0px 0px 110px 155px;
-	background-color: #FAEBD7;
-	color: #000000;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin-top: -180px;
-}
-
-.contens div {
-	width: 400px;
-	margin-bottom: 50px;
-}
-
-.costa {
-	padding: 60px 160px 50px 160px;
+.cc {
+	padding: 30px 160px 70px 160px;
 	background-color: #FAEBD7;
 	color: #000000;
 	display: flex;
@@ -223,43 +176,19 @@ header section {
 	flex-wrap: wrap;
 }
 
-.costa div {
-	width: 250px;
-	margin-bottom: 50px;
-}
-
-.costa h1 {
+.cc h1 {
 	font-family: Courier;
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: bold;
 	margin-bottom: 40px;
 	display: flex;
-	justify-content: center;
-}
-
-.con {
-	padding: 70px 160px 20px 160px;
-	font-size: 50px;
-	font-family: Courier;
-	background-color: #FAEBD7;
-	color: #000000;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-.conte {
-	padding: 50px 0px 100px 160px;
-	background-color: #FAEBD7;
-	color: #000000;
-	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
-.conte div {
-	width: 1300px;
+.cc div {
+	width: 250px;
 	margin-bottom: 50px;
+	color: #000000;
 }
 
 footer {
@@ -284,7 +213,7 @@ footer div {
 }
 .footer-logo span {
 	margin-left: 15px;
-	color: #888888;
+	color: #D4D4D4;
 }
 
 footer div p {
@@ -293,7 +222,7 @@ footer div p {
 
 footer div h2 {
 	padding-bottom: 12px;
-	border-bottom: 1px solid #555555;
+	border-bottom: 1px solid #888888;
 	color: #D4D4D4;
 	font-family: Verdana;
 	font-size: 14px;
